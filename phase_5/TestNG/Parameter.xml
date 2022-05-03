@@ -1,0 +1,20 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Seleniumtesting" verbose="1" >
+  <test name="Test1" >
+  <parameter name="username" value="vicky"></parameter>
+   <parameter name="password" value="vicky@123"></parameter>
+    <parameter name="searchInput" value="Royal Enfield"></parameter>
+    <classes>
+       <class name="testNGScripts.ParameterDemo" />
+    </classes>
+  </test>
+  
+    <test name="Test2" >
+  <parameter name="username" value="vishal"></parameter>
+   <parameter name="password" value="vishal@123"></parameter>
+    <parameter name="searchInput" value="Jawa"></parameter>
+    <classes>
+       <class name="testNGScripts.ParameterDemo" />
+    </classes>
+  </test>
+</suite>
